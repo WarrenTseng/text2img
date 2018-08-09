@@ -20,7 +20,7 @@ s = u'''
 
 
 ```python
-from lib.text2img import zhtw2img
+from text2img import zhtw2img
 ```
 
 
