@@ -1,10 +1,12 @@
 
 ## zhtw2img
 ### requirement: PIL
-    - pip3 install image
+    $ pip3 install image
 
 
 ```python
+from text2img import zhtw2img
+
 s = u'''
 在古典力學中，任意一個物體對於不同的慣性
 座標系的空間座標量和時間座標量之間滿足伽
@@ -18,19 +20,10 @@ s = u'''
 定律）在內，在伽利略變換下也都是不變的，
 這即是伽利略相對性原理。
 '''
-```
 
-
-```python
-from text2img import zhtw2img
-```
-
-
-```python
 # zhtw2img(text, img size, ttf file path), return PIL Image and image array
 img_array, img = zhtw2img(s, size=(230, 300), ttf='kaiu.ttf')
 ```
-
 
 ```python
 img
