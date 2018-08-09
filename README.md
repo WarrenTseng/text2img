@@ -1,5 +1,7 @@
 
 ## zhtw2img
+### requirement: PIL
+    - pip3 install image
 
 
 ```python
