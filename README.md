@@ -1,6 +1,6 @@
 
-## zhtw2img
-### requirement: PIL
+# zhtw2img
+### Requirement: PIL
     $ pip3 install image
 
 ### Example
